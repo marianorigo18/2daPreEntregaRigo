@@ -8,8 +8,8 @@ const products = [
     },
     {
         id: "2",
-        name: "contactor 2",
-        category: "contactores",
+        name: "termica 2 a",
+        category: "termica",
         stock: 25,
         description: "lorem ipsum tajuni jare ra ju"
     }
