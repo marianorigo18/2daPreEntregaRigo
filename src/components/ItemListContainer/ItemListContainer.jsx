@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import {getProducts, getProductsByCategory} from "../../asyncMocks"
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([])
@@ -33,7 +33,7 @@ const ItemListContainer = () => {
                 return(
                     <div key={prod.id}>
                         <p>{prod.name}</p>
-                        <button>ver detalle</button>
+                        <Link to={`/item/${prod.id}`}>ver detalle</Link>
                     </div>
                 )
             })}
