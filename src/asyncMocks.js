@@ -10,7 +10,7 @@ const products = [
         id: "3",
         name: "contactor 3A",
         category: "contactores",
-        stock: 25,
+        stock: 21,
         description: "lorem ipsum tajuni jare ra ju"
     },
     {
@@ -24,7 +24,7 @@ const products = [
         id: "4",
         name: "termica 10A",
         category: "termicas",
-        stock: 25,
+        stock: 5,
         description: "lorem ipsum tajuni jare ra ju"
     }
 ]

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { getProductsById } from "../../asyncMocks"
 import { useParams } from "react-router-dom"
-
+import ItemDetail from "../ItemDetail/ItemDetail"
 const ItemDetailContainer = () => {
     const [ product, setProduct] = useState({})
     const [loading, setLoading] = useState(true)
@@ -24,12 +24,9 @@ const ItemDetailContainer = () => {
     }
     
     return(
-        <div style={{display: "flex", justifyContent: "center", flexDirection: "column"}}>
+        <div style={{display: "flex", justifyContent: "center", flexDirection: "column", border: "1px solid"}}>
             <h1>Hello i´m item detail container</h1>
-            <div style={{fontSize: "40px"}}>
-                <p>{product.id}</p>
-                <h2>{product.name}</h2>
-            </div>
+            <ItemDetail {...product}/>
         </div>
     )
 }
