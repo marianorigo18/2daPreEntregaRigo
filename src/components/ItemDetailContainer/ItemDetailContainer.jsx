@@ -6,7 +6,6 @@ const ItemDetailContainer = () => {
     const [ product, setProduct] = useState({})
     const [loading, setLoading] = useState(true)
     const {productId} = useParams();
-    console.log(productId)
     useEffect(()=>{
         getProductsById(productId)
         .then(response => {
@@ -25,7 +24,7 @@ const ItemDetailContainer = () => {
     }
     
     return(
-        <div style={{display: "flex", justifyContent: "center"}}>
+        <div style={{display: "flex", justifyContent: "center", flexDirection: "column"}}>
             <h1>Hello i´m item detail container</h1>
             <div style={{fontSize: "40px"}}>
                 <p>{product.id}</p>
