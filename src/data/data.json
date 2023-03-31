@@ -3,7 +3,7 @@
         {
             "title": "iluminacion",
             "img": "./assets/topics/iluminacion.jpg",
-            "link": "./pages/iluminacion.html",
+            "link": "iluminacion",
             "categorias": [
                 {
                     "title": "lamparas",
@@ -847,7 +847,7 @@
         {
             "title": "industria",
             "img": "./assets/topics/industria.jpg",
-            "link": "./pages/industria.html",
+            "link": "industria",
             "categorias": [
             {
                 "title": "contactores",
@@ -896,7 +896,7 @@
         {
             "title": "conductores",
             "img": "./assets/topics/conductorestwo.jpg",
-            "link": "./pages/cables.html",
+            "link": "cables",
             "categorias": [
             {
                 "title": "taller",
@@ -957,7 +957,7 @@
         {
             "title": "punto-y-tomas",
             "img": "./assets/topics/conjuntos.jpg",
-            "link": "./pages/armados.html",
+            "link": "armados",
             "categorias": [
                 {
                     "title": "cambre",
@@ -1166,7 +1166,7 @@
         {
             "title": "herramientas",
             "img": "./assets/topics/herramientas.jpg",
-            "link": "./pages/herramientas.html",
+            "link": "herramientas",
             "categorias": [
             {
                 "title": "electricas",
@@ -1448,7 +1448,7 @@
         {
             "title": "terminales",
             "img": "./assets/topics/terminales.jpg",
-            "link": "./pages/terminales.html",
+            "link": "terminales",
             "categorias": [
             {
                 "title": "terminal-cu",
@@ -1491,7 +1491,7 @@
         {
             "title": "normalizados",
             "img": "./assets/topics/normalizadosTwo.jpg",
-            "link": "./pages/normalizados.html",
+            "link": "normalizados",
             "categorias": [
             {
                 "title": "abrazaderas",
@@ -1642,7 +1642,7 @@
         {
             "title": "medicion",
             "img": "./assets/topics/instrumentos.jpg",
-            "link": "./pages/testing.html",
+            "link": "testing",
             "categorias": [
             {
                 "title": "buscapolo inductivo",
@@ -1685,7 +1685,7 @@
         {
             "title": "aereo",
             "img": "./assets/topics/aereo.jpg",
-            "link": "./pages/aereo.html",
+            "link": "aereo",
             "categorias": [
             {
                 "id": "",
@@ -1727,7 +1727,7 @@
         {
             "title": "emergencia",
             "img": "./assets/topics/emergencia.jpg",
-            "link": "./pages/emergencia.html",
+            "link": "emergencia",
             "categorias": [
             {
                 "id": "",
@@ -1789,7 +1789,7 @@
         {
             "title": "morceteria",
             "img": "./assets/topics/morceteria.jpg",
-            "link": "./pages/morceteria.html",
+            "link": "morceteria",
             "categorias": [
             {
                 "title": "conector diente tipo peine",
