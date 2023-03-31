@@ -1,3 +1,5 @@
+import catJson from "./data/data.json"
+
 const products = [
     {
         id: "1",
@@ -41,6 +43,18 @@ const category = [
         slug: "termicas"
     },
 ]
+
+export const gettingProdsJson = () => {
+    return new Promise ((resolve, reject) => {
+        setTimeout(()=> {
+            resolve(catJson)
+            console.log(catJson.categorias)
+        },500)
+    })
+}
+
+gettingProdsJson();
+
 export const getCategories = () => {
     return new Promise ((resolve, reject) =>{
         setTimeout(()=>{
